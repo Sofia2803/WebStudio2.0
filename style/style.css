@@ -13,6 +13,8 @@
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -32,6 +34,42 @@ a {
 
 
 
+
+.header-wrap{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 24px;
+padding-bottom: 25px;
+}
+
+
+
+.header-navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.header-navigation img{
+margin-right: 93px;
+
+}
+
+
+.header-list{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+column-gap: 50px;
+}
+
+
+
+
+
  
 
 
@@ -41,8 +79,17 @@ a {
     font-size: 14px;
     letter-spacing: 0.02em;
     color:var(--brand-color);
+ }
 
-  }
+
+
+  .header-contact{
+display: flex;
+justify-content:flex-end;
+align-items: center;
+column-gap: 50px;
+}
+
 
 
 
@@ -50,6 +97,18 @@ a {
 background-color: #2F303A;
 height: 600px;
 text-align: center;
+margin-bottom: 94px;
+}
+
+
+.hero-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 30px;
+
 }
 
 
@@ -66,6 +125,47 @@ text-align: center;
 
   }
 
+
+
+  .container-img{
+    display: flex;
+    justify-content:center  ;
+    align-items:center ;
+  flex-direction: column;
+  row-gap: 50px;
+  }
+  
+
+
+
+  
+  .main-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+
+  }
+
+
+  .container-profil{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+row-gap: 50px;
+padding-top:  94px; 
+padding-bottom:106px ;
+
+  }
+
+
+  .main-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+  }
 
 
 
@@ -115,6 +215,20 @@ background-color: #2196f3;
 }
 
 
+.features{
+  margin-bottom: 94px;
+}
+
+.features-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 30px;
+
+}
+
+
+
 .header-text {
  font-family: var(--font-family);
     font-weight: 900;
@@ -147,6 +261,11 @@ background-color: #2196f3;
 }
 
 
+.footer-wrap{
+  background-color:#2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 
 .header-caption {

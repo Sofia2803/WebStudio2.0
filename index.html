@@ -20,11 +20,11 @@
 
 <body>
     <header class="header">
-        <section>
-            <div class="container">
+        <section class="container">
+            <div class="header-wrap">
                 <!-- Лого+нафігаційна панель -->
-                <img src="./img/WebStudio.png" alt="WedStudio" />
                 <nav class="header-navigation">
+                    <img src="./img/WebStudio.png" alt="WedStudio" />
                     <ul class="header-list">
                         <li class="header-item">
                             <a class="header-link" href="#">Студія</a>
@@ -36,7 +36,8 @@
                             <a class="header-link" href="#">Контакти</a>
                         </li>
                     </ul>
-                    <ul>
+                </nav>
+                    <ul class="header-contact">
                         <li class="header-item">
                             <a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
@@ -44,13 +45,12 @@
                             <a class="header-link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
                         </li>
                     </ul>
-                </nav>
             </div>
         </section>
     </header>
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="container hero-wrap" >
                 <h1 class="header-text">
                     Ефективні рішення для <br />
                     вашого бізнесу
@@ -58,9 +58,9 @@
                 <button type="button">Замовити послугу</button>
             </div>
         </section>
-        <section>
+        <section class="features">
             <div class="container">
-                <ul>
+                <ul class="features-list">
                     <li class="header-item">
                         <b class="header-items">УВАГА ДО ДЕТАЛЕЙ</b>
                         <p class="header-title">
@@ -91,10 +91,10 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <div class="container">
+        <section class="main-picture">
+            <div class="container-img">
                 <h2 class="header-subtitle">Чим ми займаємося</h2>
-                <ul>
+                <ul class="main-list">
                     <li><img src="./img/photo1.jpg" alt="foto1" /></li>
                     <li><img src="./img/photo2.png" alt="foto2" /></li>
                     <li><img src="./img/photo3.png" alt="foto3" /></li>
@@ -102,9 +102,9 @@
             </div>
         </section>
         <section>
-            <div class="container">
+            <div class="container-profil">
                 <h2 class="header-subtitle">Наша команда</h2>
-                <ul>
+                <ul class="main-item">
                     <li class="header-item">
                         <img src="./img/igor.jpg" alt="igor" width="210" />
                         <div>
@@ -137,8 +137,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <section>
+    <footer >
+        <section class="footer-wrap">
             <div class="container">
                 <img src="./img/WebStudiobottom.png" alt="WedStudio" />
                 <address>
