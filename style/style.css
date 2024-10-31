@@ -73,12 +73,13 @@ column-gap: 50px;
  
 
 
-  .header-link {
+  .header-link{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
     color:var(--brand-color);
+   
  }
 
 
@@ -190,6 +191,8 @@ padding-bottom:106px ;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    
+
    
   }
 
@@ -298,4 +301,36 @@ color:#757575;;
 
 
 
+.header-contact {
+  display: flex;
+  gap: 30px;
+}
 
+.header-contact--part{
+  display: flex;
+  gap: 10px;
+
+}
+
+.header-contact--part:hover svg path {
+fill: #2196f3;
+transition: 0,5s;
+}
+
+.header-socials {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+
+}
+
+.header-socials svg:hover path{
+  fill: #2196f3;
+  transition: 0,5s;
+}
+
+
+.header-socials svg path{
+  transition: 0,5s;
+}
